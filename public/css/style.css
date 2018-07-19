@@ -1,0 +1,100 @@
+html,
+body{
+  background-color: #FAFAFA;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+
+/* ESTILO DE LA PARTE DE ALFRENTE*/
+header {
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    background: red;
+    border-bottom: 1px solid #ddd;
+    color: white;
+
+    z-index: 2;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header .logo > img:first-child {
+    --margin-logo: 20px;
+    padding-right: var(--margin-logo);
+    margin-right: calc(var(--margin-logo) - 10px);
+    border-right: 1px solid black;
+}
+
+
+header .form-input {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    color: #0c00fe;
+}
+
+header .form-input:focus {
+    text-align: left;
+}
+
+.button{
+  background-color: #110008;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 70px;
+}
+
+.most{
+  padding-left: 75px;
+  color: Black;
+}
+
+.form-1{
+  padding-left: 200px;
+  padding-right:200px;
+}
+
+ .form-input2 {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    color: #110008;
+}
+
+.form-input2:focus {
+    text-align: left;
+}
+
+.form-input-title{
+
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100% ;
+  height: 30px ;
+  color: #110008;
+}
+
+textarea{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
